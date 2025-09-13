@@ -4,7 +4,7 @@ const outputArea = document.getElementById('outputArea');
 const loadingIndicator = document.getElementById('loadingIndicator');
 
 
-const GEMINI_API_KEY = "AIzaSyD6rkARQCKTeNug6iuusujwetY1IEqw3sU"; // YOUR ACTUAL API KEY
+const GEMINI_API_KEY = "Your API KEY"; // YOUR ACTUAL API KEY
 // ========================================================================
 const MODEL_NAME = "gemini-1.5-flash"; // Or your preferred model
 
@@ -164,3 +164,6 @@ myInner(); // Logs "I am outside!"</code></pre>
                 <p>In this example, <code>inner()</code> is a closure that "closes over" the <code>outerVar</code> variable.</p>
             `;
 }, 2000);
+
+
+// AIzaSyD6rkARQCKTeNug6iuusujwetY1IEqw3sU
